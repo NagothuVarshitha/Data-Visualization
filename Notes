@@ -1,0 +1,94 @@
+1- Data Visualization means representing data using graphs, charts, and plots so that we can understand the data easily.
+------------------------------------------------------------------------------------------
+2- Why do we use Data Visualization?
+    comparision-comparing who scored more among
+    Trends-we see whethere the marks are decreasing or increasing
+    Patterns-we notice some repeated behaviour such as day 1 50customers, day 2 100, day 3 150 so 50 are increasing day by day
+    Relationships- Are python marks related to math marks?
+    Distribution-how are these marks spread?
+-----------------------------------------------------------------------------------------
+3- Matplotlib and Seaborn
+--->Matplotlib gives
+ more control over graphs, while Seaborn provides simpler and more attractive statistical visualizations.(Graphical representation of data)
+    Matplotlib → Gives more control over the graph.
+                 Can create bar, line, pie, scatter, histogram charts.
+                 Works well with NumPy and Pandas.
+                 Good when you need full control over the graph.
+                 Requires More code for styling.
+
+    Seaborn → Used for statistical data visualization.
+              Creates better-looking graphs by default.
+              Works very well with Pandas DataFrames.
+              Good for showing relationships, distributions, and patterns.
+              Good when you want quick and attractive visualizations.
+              Requires less code for many common graphs.
+------------------------------------------------------------------------------------------
+4----
+
+    Bar Graph: It is used for Categorical comparison
+    EX: Alice   → 85
+        Bob     → 72
+        Charlie → 90
+        There are separate categories.(we compare them in graph)
+
+    DataType: Categorical + Numerical
+    EX: Student → Marks
+    It is used for Comparison
+    → Categorical / discrete comparison
+------------------------------------------------------------------------------------------
+    Pie Chart: It shows parts of a whole.
+    Ex: Python  → 25%
+        SQL     → 20%
+        Maths   → 30%
+        English → 25%
+
+    DataType: Category + Proportion
+    It is used for Parts of a whole
+    → Categories + proportions
+------------------------------------------------------------------------------------------
+    Line: 
+
+    DataType: Ordered/Time + Numerical
+    Ex: Test Number → Average Marks
+    It is used for Trend
+    → Ordered or continuous trend
+------------------------------------------------------------------------------------------
+    Scatter Plot: It uses two numerical variables.
+    Ex:Is there a relationship between Python and Maths marks?
+        x-python,y axis-Maths
+
+    DataType: Numerical + Numerical
+    Ex: Python → Maths
+    It is used for Relationship
+    → Numerical vs numerical relationship
+------------------------------------------------------------------------------------------
+    Histogram: It shows frequency(How many times something occurs) of numerical data.
+    Ex: Here we want to know , How are the Python marks distributed?
+        60–70
+        70–80
+        80–90
+        90–100(ranges)
+
+    DataType: One Numerical Variable
+    It is used for Distribution
+    → Continuous numerical distribution
+------------------------------------------------------------------------------------------
+
+5- Statistical data types
+DATA
+│
+├── Qualitative--It describes categories rather than numerical measurements.
+│   ├── Nominal--Categories with no natural order.
+                    Examples:
+                            Branch: CS, ECE, BBA, AIDS
+                            (There is no "higher" or "lower" branch.)
+│   └── Ordinal--Categories with a meaningful order.
+                    Ex: Poor, Average, Good, Excellent(There is an order.)
+│
+└── Quantitative--Quantitative means numerical data.
+    ├── Discrete--Discrete data is countable.
+                    Ex: Number of students = 50
+                        Number of cars = 20
+                        Number of calls = 15(we dont say 15.5 students we say exactly 15 students so countable)
+    └── Continuous--Continuous data is measurable and can take decimal values.
+                    Ex: Height = 165.5 cm, Time = 5.72 seconds
