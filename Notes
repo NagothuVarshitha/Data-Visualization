@@ -1,4 +1,7 @@
 1- Data Visualization means representing data using graphs, charts, and plots so that we can understand the data easily.
+
+---categorical value should change into numerical value
+
 ------------------------------------------------------------------------------------------
 2- Why do we use Data Visualization?
     comparision-comparing who scored more among
@@ -6,6 +9,7 @@
     Patterns-we notice some repeated behaviour such as day 1 50customers, day 2 100, day 3 150 so 50 are increasing day by day
     Relationships- Are python marks related to math marks?
     Distribution-how are these marks spread?
+
 -----------------------------------------------------------------------------------------
 3- Matplotlib and Seaborn
 --->Matplotlib gives
@@ -17,6 +21,7 @@
                  Requires More code for styling.
 
     Seaborn → Used for statistical data visualization.
+    styling is automatic and we have built-in statistics.
               Creates better-looking graphs by default.
               Works very well with Pandas DataFrames.
               Good for showing relationships, distributions, and patterns.
@@ -92,3 +97,25 @@ DATA
                         Number of calls = 15(we dont say 15.5 students we say exactly 15 students so countable)
     └── Continuous--Continuous data is measurable and can take decimal values.
                     Ex: Height = 165.5 cm, Time = 5.72 seconds
+
+6- KDE curve (Kernel Density Estimation) is a smooth curve that shows how the data is distributed.
+
+7- Categorical plots--boxplot & violin plot
+we have quartiles(4) in boxplot and it is better than violin plot
+diff b/w 2 quartiles are called inter quartile distance
+In boxplot it is easy to find outlayer
+    Why Box Plot is useful:
+        Easy to compare categories.
+        Easy to find outliers.
+        Clearly shows the median.
+        Shows the spread of data.
+        Compact even when there are many observations.
+
+Violin Plot--A violin plot combines ideas from a box plot + KDE (density curve).
+It shows:
+    Median/summary information
+    Spread of data
+    Density — where values are concentrated
+    Shape of the distribution
+
+8--Relational plots
